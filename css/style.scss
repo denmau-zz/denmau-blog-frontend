@@ -1,0 +1,31 @@
+$site-black: #1e212b;
+$site-red: #fd3e67;
+$site-yellow: #ffe74c;
+$site-blue: #645dd7;
+$site-grey: #c3d2d5;
+
+body {
+  color: $site-black;
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .navbar-container {
+    color: $site-grey;
+    background-color: $site-black;
+    font-size: 1.2rem;
+
+    .nav-link {
+      color: $site-grey;
+    }
+
+    a.navbar-brand {
+      color: $site-red;
+    }
+
+    a.active {
+      color: $site-yellow;
+    }
+  }
+}
