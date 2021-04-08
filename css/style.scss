@@ -34,11 +34,9 @@ body {
     background-color: $site-black;
     display: flex;
     justify-content: center;
-    padding-right: 15px;
     background-image: url("/img/undraw_dashboard_image.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-origin: content-box;
 
     .main-content {
       display: block;
