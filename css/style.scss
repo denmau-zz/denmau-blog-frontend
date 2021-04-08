@@ -28,4 +28,55 @@ body {
       color: $site-yellow;
     }
   }
+
+  .main-content-container {
+    min-height: calc(100vh - 54px);
+    background-color: $site-black;
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    background-image: url("/img/undraw_dashboard_image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+
+    .main-content {
+      display: block;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+
+      .welcome-message {
+        color: $site-blue;
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+        font-size: 2rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .thanks-message {
+        color: $site-grey;
+        font-size: 1rem;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 5rem;
+      }
+
+      .site-title {
+        color: $site-yellow;
+        text-transform: uppercase;
+        font-family: comfortaa;
+        font-size: 65px;
+        width: 60%;
+      }
+      .about-me {
+        color: $site-grey;
+        width: 50%;
+      }
+    }
+  }
+
+  .color-red {
+    color: $site-red;
+  }
 }

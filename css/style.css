@@ -24,4 +24,68 @@ body .navbar-container a.navbar-brand {
 body .navbar-container a.active {
   color: #ffe74c;
 }
+
+body .main-content-container {
+  min-height: calc(100vh - 54px);
+  background-color: #1e212b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 15px;
+  background-image: url("/img/undraw_dashboard_image.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+}
+
+body .main-content-container .main-content {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .main-content-container .main-content .welcome-message {
+  color: #645dd7;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+body .main-content-container .main-content .thanks-message {
+  color: #c3d2d5;
+  font-size: 1rem;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 5rem;
+}
+
+body .main-content-container .main-content .site-title {
+  color: #ffe74c;
+  text-transform: uppercase;
+  font-family: comfortaa;
+  font-size: 65px;
+  width: 60%;
+}
+
+body .main-content-container .main-content .about-me {
+  color: #c3d2d5;
+  width: 50%;
+}
+
+body .color-red {
+  color: #fd3e67;
+}
 /*# sourceMappingURL=style.css.map */
