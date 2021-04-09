@@ -130,21 +130,21 @@ section.skills:last-child {
 
 .card-container {
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #c3d2d5;
 }
 
 .card-container .card {
   border-radius: 40px;
-  min-height: 582px;
+  min-height: 500px;
   border-color: #1e212b;
 }
 
 .card-container .card .card-thumbnail {
-  min-height: 323px;
+  height: 323px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 5rem 20px 1rem 20px;
+  margin: 2rem 20px 1rem 20px;
 }
 
 .card-container .card .mobile-dev-card {
@@ -169,5 +169,42 @@ section.skills:last-child {
   color: #fd3e67;
   font-family: poppins;
   text-align: center;
+}
+
+.card-container .card .skill-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skillset-icon-container {
+  height: 150px;
+  border: solid 2px #ffffff;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 20px;
+}
+
+.skillset-icon-container .skillset-icon {
+  height: 65px;
 }
 /*# sourceMappingURL=style.css.map */
