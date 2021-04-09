@@ -37,6 +37,7 @@ body .main-content-container {
   background-image: url("/img/undraw_dashboard_image.png");
   background-repeat: no-repeat;
   background-position: right;
+  border-right: 4rem solid #1e212b;
 }
 
 body .main-content-container .main-content {

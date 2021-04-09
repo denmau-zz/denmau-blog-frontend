@@ -37,6 +37,8 @@ body {
     background-image: url("/img/undraw_dashboard_image.png");
     background-repeat: no-repeat;
     background-position: right;
+    // give right padding to the background image
+    border-right: 4rem solid $site-black;
 
     .main-content {
       display: block;
