@@ -7,26 +7,26 @@ body {
           box-sizing: border-box;
 }
 
-body .navbar-container {
+.navbar-container {
   color: #c3d2d5;
   background-color: #1e212b;
   font-size: 1.2rem;
 }
 
-body .navbar-container .nav-link {
+.navbar-container .nav-link {
   color: #c3d2d5;
 }
 
-body .navbar-container a.navbar-brand {
+.navbar-container a.navbar-brand {
   color: #fd3e67;
 }
 
-body .navbar-container a.active {
+.navbar-container a.active {
   color: #ffe74c;
 }
 
-body .main-content-container {
-  min-height: calc(100vh - 54px);
+.main-content-container {
+  min-height: calc(100vh - 58px);
   background-color: #1e212b;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,7 +40,7 @@ body .main-content-container {
   border-right: 4rem solid #1e212b;
 }
 
-body .main-content-container .main-content {
+.main-content-container .main-content {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +54,7 @@ body .main-content-container .main-content {
           justify-content: center;
 }
 
-body .main-content-container .main-content .welcome-message {
+.main-content-container .main-content .welcome-message {
   color: #645dd7;
   text-transform: uppercase;
   margin-bottom: 5rem;
@@ -63,7 +63,7 @@ body .main-content-container .main-content .welcome-message {
   padding-bottom: 0;
 }
 
-body .main-content-container .main-content .thanks-message {
+.main-content-container .main-content .thanks-message {
   color: #c3d2d5;
   font-size: 1rem;
   margin-top: 0;
@@ -71,7 +71,7 @@ body .main-content-container .main-content .thanks-message {
   margin-bottom: 5rem;
 }
 
-body .main-content-container .main-content .site-title {
+.main-content-container .main-content .site-title {
   color: #ffe74c;
   text-transform: uppercase;
   font-family: comfortaa;
@@ -79,12 +79,95 @@ body .main-content-container .main-content .site-title {
   width: 60%;
 }
 
-body .main-content-container .main-content .about-me {
+.main-content-container .main-content .about-me {
   color: #c3d2d5;
   width: 50%;
 }
 
-body .color-red {
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.background-grey {
+  background-color: #c3d2d5;
+}
+
+.background-black {
+  background-color: #1e212b;
+}
+
+.color-red {
   color: #fd3e67;
+}
+
+.black-white-transition {
+  background-color: hotpink;
+  min-height: 4rem;
+  width: 100%;
+}
+
+.section-title {
+  color: #fd3e67;
+  font-family: comfortaa;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+section.skills:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.card-container .card {
+  border-radius: 40px;
+  min-height: 582px;
+  border-color: #1e212b;
+}
+
+.card-container .card .card-thumbnail {
+  min-height: 323px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5rem 20px 1rem 20px;
+}
+
+.card-container .card .mobile-dev-card {
+  background-image: url("/img/undraw_android_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-container .card .web-dev-card {
+  background-image: url("/img/undraw_web_developer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-container .card .ml-ai-card {
+  background-image: url("/img/undraw_Artificial_intelligence.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-container .card .card-title {
+  color: #fd3e67;
+  font-family: poppins;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

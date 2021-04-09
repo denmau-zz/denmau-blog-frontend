@@ -3,6 +3,7 @@ $site-red: #fd3e67;
 $site-yellow: #ffe74c;
 $site-blue: #645dd7;
 $site-grey: #c3d2d5;
+$site-white: #ffffff;
 
 body {
   color: $site-black;
@@ -10,73 +11,146 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
-  .navbar-container {
+.navbar-container {
+  color: $site-grey;
+  background-color: $site-black;
+  font-size: 1.2rem;
+
+  .nav-link {
     color: $site-grey;
-    background-color: $site-black;
-    font-size: 1.2rem;
-
-    .nav-link {
-      color: $site-grey;
-    }
-
-    a.navbar-brand {
-      color: $site-red;
-    }
-
-    a.active {
-      color: $site-yellow;
-    }
   }
 
-  .main-content-container {
-    min-height: calc(100vh - 54px);
-    background-color: $site-black;
-    display: flex;
-    justify-content: center;
-    background-image: url("/img/undraw_dashboard_image.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    // give right padding to the background image
-    border-right: 4rem solid $site-black;
-
-    .main-content {
-      display: block;
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-
-      .welcome-message {
-        color: $site-blue;
-        text-transform: uppercase;
-        margin-bottom: 5rem;
-        font-size: 2rem;
-        margin-bottom: 0;
-        padding-bottom: 0;
-      }
-      .thanks-message {
-        color: $site-grey;
-        font-size: 1rem;
-        margin-top: 0;
-        padding-top: 0;
-        margin-bottom: 5rem;
-      }
-
-      .site-title {
-        color: $site-yellow;
-        text-transform: uppercase;
-        font-family: comfortaa;
-        font-size: 65px;
-        width: 60%;
-      }
-      .about-me {
-        color: $site-grey;
-        width: 50%;
-      }
-    }
-  }
-
-  .color-red {
+  a.navbar-brand {
     color: $site-red;
+  }
+
+  a.active {
+    color: $site-yellow;
+  }
+}
+
+.main-content-container {
+  min-height: calc(100vh - 58px);
+  background-color: $site-black;
+  display: flex;
+  justify-content: center;
+  background-image: url("/img/undraw_dashboard_image.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  // give right padding to the background image
+  border-right: 4rem solid $site-black;
+
+  .main-content {
+    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    .welcome-message {
+      color: $site-blue;
+      text-transform: uppercase;
+      margin-bottom: 5rem;
+      font-size: 2rem;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .thanks-message {
+      color: $site-grey;
+      font-size: 1rem;
+      margin-top: 0;
+      padding-top: 0;
+      margin-bottom: 5rem;
+    }
+
+    .site-title {
+      color: $site-yellow;
+      text-transform: uppercase;
+      font-family: comfortaa;
+      font-size: 65px;
+      width: 60%;
+    }
+    .about-me {
+      color: $site-grey;
+      width: 50%;
+    }
+  }
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.background-grey {
+  background-color: $site-grey;
+}
+.background-black {
+  background-color: $site-black;
+}
+
+.color-red {
+  color: $site-red;
+}
+
+.black-white-transition {
+  background-color: hotpink;
+  min-height: 4rem;
+  width: 100%;
+}
+
+.section-title {
+  color: $site-red;
+  font-family: comfortaa;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.section-title:first-child {
+  // make its position(y) to be y-3
+}
+
+section.skills:last-child {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.card-container {
+  padding: 10px;
+  background-color: $site-white;
+
+  .card {
+    border-radius: 40px;
+    min-height: 582px;
+    border-color: $site-black;
+
+    .card-thumbnail {
+      min-height: 323px;
+      align-items: center;
+      margin: 5rem 20px 1rem 20px;
+    }
+    .mobile-dev-card {
+      background-image: url("/img/undraw_android_img.png");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .web-dev-card {
+      background-image: url("/img/undraw_web_developer.png");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .ml-ai-card {
+      background-image: url("/img/undraw_Artificial_intelligence.png");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .card-title {
+      color: $site-red;
+      font-family: poppins;
+      text-align: center;
+    }
   }
 }
