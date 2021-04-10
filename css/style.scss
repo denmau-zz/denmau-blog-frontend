@@ -36,7 +36,7 @@ body {
   background-color: $site-black;
   display: flex;
   justify-content: center;
-  background-image: url("/img/undraw_dashboard_image.png");
+  background-image: url("../img/undraw_dashboard_image.png");
   background-repeat: no-repeat;
   background-position: right;
   // give right padding to the background image
@@ -138,17 +138,17 @@ section.skills:last-child {
       margin: 2rem 20px 1rem 20px;
     }
     .mobile-dev-card {
-      background-image: url("/img/undraw_android_img.png");
+      background-image: url("../img/undraw_android_img.png");
       background-position: center;
       background-repeat: no-repeat;
     }
     .web-dev-card {
-      background-image: url("/img/undraw_web_developer.png");
+      background-image: url("../img/undraw_web_developer.png");
       background-position: center;
       background-repeat: no-repeat;
     }
     .ml-ai-card {
-      background-image: url("/img/undraw_Artificial_intelligence.png");
+      background-image: url("../img/undraw_Artificial_intelligence.png");
       background-position: center;
       background-repeat: no-repeat;
     }

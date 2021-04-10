@@ -34,7 +34,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("/img/undraw_dashboard_image.png");
+  background-image: url("../img/undraw_dashboard_image.png");
   background-repeat: no-repeat;
   background-position: right;
   border-right: 4rem solid #1e212b;
@@ -152,19 +152,19 @@ section.skills:last-child {
 }
 
 .card-container .card .mobile-dev-card {
-  background-image: url("/img/undraw_android_img.png");
+  background-image: url("../img/undraw_android_img.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-container .card .web-dev-card {
-  background-image: url("/img/undraw_web_developer.png");
+  background-image: url("../img/undraw_web_developer.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-container .card .ml-ai-card {
-  background-image: url("/img/undraw_Artificial_intelligence.png");
+  background-image: url("../img/undraw_Artificial_intelligence.png");
   background-position: center;
   background-repeat: no-repeat;
 }
