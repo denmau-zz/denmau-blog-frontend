@@ -227,6 +227,7 @@ section.skills:last-child {
   color: #fd3e67;
   font-family: poppins;
   text-transform: uppercase;
+  font-size: 1.2rem;
 }
 
 .experience-container .exp-role a {
