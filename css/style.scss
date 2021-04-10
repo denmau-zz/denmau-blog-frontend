@@ -95,6 +95,10 @@ section {
   color: $site-red;
 }
 
+.color-grey {
+  color: $site-grey;
+}
+
 .black-white-transition {
   background-color: hotpink;
   min-height: 4rem;
@@ -175,4 +179,55 @@ section.skills:last-child {
     // border: blue 2px solid;
     height: 65px;
   }
+}
+
+.experience-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .exp-date {
+    font-family: poppins;
+    // font-size: 20px;
+    font-weight: lighter;
+    color: $site-black;
+    // color: rebeccapurple;
+  }
+
+  .exp-role {
+    color: $site-red;
+    font-family: poppins;
+    text-transform: uppercase;
+    // font-size: 30px;
+
+    a {
+      color: unset;
+      text-decoration: none;
+    }
+  }
+
+  .exp-company {
+    color: $site-blue;
+    font-weight: bold;
+
+    // font-size: 1.5rem;
+  }
+}
+.experience-container:last-child {
+  margin-bottom: 0;
+}
+
+.education-container {
+  margin-top: 2rem;
+
+  .edu-qualification {
+    text-transform: uppercase;
+    color: $site-yellow;
+  }
+
+  .edu-school {
+    color: $site-blue;
+  }
+}
+.education-container:last-child {
+  margin-bottom: 0;
 }

@@ -101,6 +101,10 @@ section {
   color: #fd3e67;
 }
 
+.color-grey {
+  color: #c3d2d5;
+}
+
 .black-white-transition {
   background-color: hotpink;
   min-height: 4rem;
@@ -206,5 +210,53 @@ section.skills:last-child {
 
 .skillset-icon-container .skillset-icon {
   height: 65px;
+}
+
+.experience-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.experience-container .exp-date {
+  font-family: poppins;
+  font-weight: lighter;
+  color: #1e212b;
+}
+
+.experience-container .exp-role {
+  color: #fd3e67;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+
+.experience-container .exp-role a {
+  color: unset;
+  text-decoration: none;
+}
+
+.experience-container .exp-company {
+  color: #645dd7;
+  font-weight: bold;
+}
+
+.experience-container:last-child {
+  margin-bottom: 0;
+}
+
+.education-container {
+  margin-top: 2rem;
+}
+
+.education-container .edu-qualification {
+  text-transform: uppercase;
+  color: #ffe74c;
+}
+
+.education-container .edu-school {
+  color: #645dd7;
+}
+
+.education-container:last-child {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
