@@ -277,4 +277,67 @@ section.skills:last-child {
 .education-container:last-child {
   margin-bottom: 0;
 }
+
+.project-card {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #fd3e67;
+}
+
+.project-card .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-card img {
+  max-width: 200px;
+}
+
+.project-highlight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  padding: 2rem 0;
+}
+
+.project-highlight img {
+  max-height: 76px;
+  max-width: 60%;
+  margin-bottom: 1rem;
+}
+
+.project-highlight a {
+  color: unset;
+  text-decoration: none;
+  border: 2px solid #ffe74c;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.project-highlight a:hover {
+  color: #1e212b;
+  border-color: #fd3e67;
+}
+
+.project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */

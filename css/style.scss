@@ -146,7 +146,6 @@ section.skills:last-child {
 
     .card-thumbnail {
       height: 323px;
-      // max-height: 323px;
       align-items: center;
       margin: 2rem 20px 1rem 20px;
     }
@@ -176,8 +175,8 @@ section.skills:last-child {
       justify-content: space-evenly;
       align-items: center;
     }
-  } // card
-} // card container
+  }
+}
 .skillset-icon-container {
   height: 150px;
   border: solid 2px $site-white;
@@ -189,7 +188,6 @@ section.skills:last-child {
   margin: 0 20px;
 
   .skillset-icon {
-    // border: blue 2px solid;
     height: 65px;
   }
 }
@@ -248,4 +246,51 @@ section.skills:last-child {
 }
 .education-container:last-child {
   margin-bottom: 0;
+}
+.project-card {
+  border-radius: 20px;
+  background-color: $site-white;
+  color: $site-red;
+
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    max-width: 200px;
+  }
+}
+
+.project-highlight {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 40%;
+  padding: 2rem 0;
+
+  img {
+    max-height: 76px;
+    max-width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: unset;
+    text-decoration: none;
+    border: 2px solid $site-yellow;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  a:hover {
+    color: $site-black;
+    border-color: $site-red;
+  }
+}
+
+.project-description {
+  display: flex;
+  align-items: center;
 }
