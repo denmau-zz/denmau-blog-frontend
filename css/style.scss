@@ -65,18 +65,19 @@ body {
       margin-bottom: 5rem;
     }
 
-    .site-title {
-      color: $site-yellow;
-      text-transform: uppercase;
-      font-family: comfortaa;
-      font-size: 65px;
-      width: 60%;
-    }
     .about-me {
       color: $site-grey;
       width: 50%;
     }
   }
+}
+
+.site-title {
+  color: $site-yellow;
+  text-transform: uppercase;
+  font-family: comfortaa;
+  font-size: 65px;
+  width: 60%;
 }
 
 section {
@@ -111,6 +112,18 @@ section {
   font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: bold;
+}
+
+.section-title::after {
+  background: none repeat scroll 0 0 $site-red;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 50px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
 }
 
 .section-title:first-child {
@@ -226,6 +239,11 @@ section.skills:last-child {
 
   .edu-school {
     color: $site-blue;
+  }
+
+  ul {
+    color: $site-grey;
+    padding-left: 50px;
   }
 }
 .education-container:last-child {
