@@ -105,6 +105,10 @@ section {
   color: #c3d2d5;
 }
 
+.color-blue {
+  color: #645dd7;
+}
+
 .black-white-transition {
   background-color: hotpink;
   min-height: 4rem;
@@ -340,5 +344,37 @@ section.skills:last-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.form-container {
+  border: #ffe74c 2px solid;
+  border-radius: 20px;
+  height: 100%;
+  padding: 3rem;
+}
+
+#contact div:last-child img {
+  max-height: 600px;
+}
+
+#contact .social-container {
+  padding: 10px;
+}
+
+#contact .social-container a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .social-container img {
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */
