@@ -377,4 +377,33 @@ section.skills:last-child {
 #contact .social-container img {
   margin-right: 5px;
 }
+
+footer {
+  color: #c3d2d5;
+  font-size: 1rem;
+  font-family: poppins;
+}
+
+footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+footer .row .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .row .socials img {
+  height: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

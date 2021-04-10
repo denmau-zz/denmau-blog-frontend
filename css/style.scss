@@ -327,3 +327,23 @@ section.skills:last-child {
     }
   }
 }
+footer {
+  color: $site-grey;
+  font-size: 1rem;
+  font-family: poppins;
+
+  .row {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+
+    .socials {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        height: 2rem;
+      }
+    }
+  }
+}
