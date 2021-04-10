@@ -282,6 +282,7 @@ section.skills:last-child {
   border-radius: 20px;
   background-color: #ffffff;
   color: #fd3e67;
+  height: 420px;
 }
 
 .project-card .left {
@@ -293,7 +294,7 @@ section.skills:last-child {
           align-items: center;
 }
 
-.project-card img {
+.project-card .left img {
   max-width: 200px;
 }
 

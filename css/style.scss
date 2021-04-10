@@ -251,14 +251,15 @@ section.skills:last-child {
   border-radius: 20px;
   background-color: $site-white;
   color: $site-red;
+  height: 420px;
 
   .left {
     display: flex;
     align-items: center;
-  }
 
-  img {
-    max-width: 200px;
+    img {
+      max-width: 200px;
+    }
   }
 }
 
