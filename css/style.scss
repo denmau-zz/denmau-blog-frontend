@@ -88,6 +88,7 @@ section {
 .background-grey {
   background-color: $site-grey;
 }
+
 .background-black {
   background-color: $site-black;
 }
@@ -99,6 +100,7 @@ section {
 .color-grey {
   color: $site-grey;
 }
+
 .color-blue {
   color: $site-blue;
 }
@@ -138,6 +140,7 @@ section.skills:last-child {
   flex-flow: row wrap;
   align-items: center;
 }
+
 .card-container {
   padding: 10px;
   background-color: $site-grey;
@@ -152,26 +155,31 @@ section.skills:last-child {
       align-items: center;
       margin: 2rem 20px 1rem 20px;
     }
+
     .mobile-dev-card {
       background-image: url("../img/undraw_android_img.png");
       background-position: center;
       background-repeat: no-repeat;
     }
+
     .web-dev-card {
       background-image: url("../img/undraw_web_developer.png");
       background-position: center;
       background-repeat: no-repeat;
     }
+
     .ml-ai-card {
       background-image: url("../img/undraw_Artificial_intelligence.png");
       background-position: center;
       background-repeat: no-repeat;
     }
+
     .card-title {
       color: $site-red;
       font-family: poppins;
       text-align: center;
     }
+
     .skill-icon-container {
       display: flex;
       flex-flow: row wrap;
@@ -180,6 +188,7 @@ section.skills:last-child {
     }
   }
 }
+
 .skillset-icon-container {
   height: 150px;
   border: solid 2px $site-white;
@@ -226,6 +235,7 @@ section.skills:last-child {
     // font-size: 1.5rem;
   }
 }
+
 .experience-container:last-child {
   margin-bottom: 0;
 }
@@ -247,9 +257,11 @@ section.skills:last-child {
     padding-left: 50px;
   }
 }
+
 .education-container:last-child {
   margin-bottom: 0;
 }
+
 .project-card {
   border-radius: 20px;
   background-color: $site-white;
@@ -308,25 +320,30 @@ section.skills:last-child {
   // align-items: center;
   // justify-content: center;
 }
+
 #contact {
   div:last-child {
     img {
       max-height: 600px;
     }
   }
+
   .social-container {
     padding: 10px;
+
     a {
       text-decoration: none;
       display: flex;
       align-items: center;
       justify-content: center;
     }
+
     img {
       margin-right: 5px;
     }
   }
 }
+
 footer {
   color: $site-grey;
   font-size: 1rem;
@@ -347,6 +364,7 @@ footer {
     }
   }
 }
+
 /*
 Custom modal, you can remove all of these for default behavior
 */
